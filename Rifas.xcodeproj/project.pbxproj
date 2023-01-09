@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6143FD4296CC12400733858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FD3296CC12400733858 /* AppDelegate.swift */; };
+		E6143FD6296CC12400733858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FD5296CC12400733858 /* SceneDelegate.swift */; };
+		E6143FD8296CC12400733858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FD7296CC12400733858 /* ViewController.swift */; };
+		E6143FDB296CC12400733858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6143FD9296CC12400733858 /* Main.storyboard */; };
+		E6143FDD296CC12500733858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6143FDC296CC12500733858 /* Assets.xcassets */; };
+		E6143FE0296CC12500733858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6143FDE296CC12500733858 /* LaunchScreen.storyboard */; };
+		E6143FEB296CC12500733858 /* RifasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FEA296CC12500733858 /* RifasTests.swift */; };
+		E6143FF5296CC12500733858 /* RifasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FF4296CC12500733858 /* RifasUITests.swift */; };
+		E6143FF7296CC12500733858 /* RifasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6143FF6296CC12500733858 /* RifasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6143FE7296CC12500733858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6143FC8296CC12400733858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6143FCF296CC12400733858;
+			remoteInfo = Rifas;
+		};
+		E6143FF1296CC12500733858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6143FC8296CC12400733858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6143FCF296CC12400733858;
+			remoteInfo = Rifas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6143FD0296CC12400733858 /* Rifas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rifas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6143FD3296CC12400733858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6143FD5296CC12400733858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6143FD7296CC12400733858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6143FDA296CC12400733858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6143FDC296CC12500733858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6143FDF296CC12500733858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6143FE1296CC12500733858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6143FE6296CC12500733858 /* RifasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RifasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6143FEA296CC12500733858 /* RifasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RifasTests.swift; sourceTree = "<group>"; };
+		E6143FF0296CC12500733858 /* RifasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RifasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6143FF4296CC12500733858 /* RifasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RifasUITests.swift; sourceTree = "<group>"; };
+		E6143FF6296CC12500733858 /* RifasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RifasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6143FCD296CC12400733858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FE3296CC12500733858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FED296CC12500733858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6143FC7296CC12400733858 = {
+			isa = PBXGroup;
+			children = (
+				E6143FD2296CC12400733858 /* Rifas */,
+				E6143FE9296CC12500733858 /* RifasTests */,
+				E6143FF3296CC12500733858 /* RifasUITests */,
+				E6143FD1296CC12400733858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6143FD1296CC12400733858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6143FD0296CC12400733858 /* Rifas.app */,
+				E6143FE6296CC12500733858 /* RifasTests.xctest */,
+				E6143FF0296CC12500733858 /* RifasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6143FD2296CC12400733858 /* Rifas */ = {
+			isa = PBXGroup;
+			children = (
+				E6143FD3296CC12400733858 /* AppDelegate.swift */,
+				E6143FD5296CC12400733858 /* SceneDelegate.swift */,
+				E6143FD7296CC12400733858 /* ViewController.swift */,
+				E6143FD9296CC12400733858 /* Main.storyboard */,
+				E6143FDC296CC12500733858 /* Assets.xcassets */,
+				E6143FDE296CC12500733858 /* LaunchScreen.storyboard */,
+				E6143FE1296CC12500733858 /* Info.plist */,
+			);
+			path = Rifas;
+			sourceTree = "<group>";
+		};
+		E6143FE9296CC12500733858 /* RifasTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6143FEA296CC12500733858 /* RifasTests.swift */,
+			);
+			path = RifasTests;
+			sourceTree = "<group>";
+		};
+		E6143FF3296CC12500733858 /* RifasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6143FF4296CC12500733858 /* RifasUITests.swift */,
+				E6143FF6296CC12500733858 /* RifasUITestsLaunchTests.swift */,
+			);
+			path = RifasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6143FCF296CC12400733858 /* Rifas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6143FFA296CC12500733858 /* Build configuration list for PBXNativeTarget "Rifas" */;
+			buildPhases = (
+				E6143FCC296CC12400733858 /* Sources */,
+				E6143FCD296CC12400733858 /* Frameworks */,
+				E6143FCE296CC12400733858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rifas;
+			productName = Rifas;
+			productReference = E6143FD0296CC12400733858 /* Rifas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6143FE5296CC12500733858 /* RifasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6143FFD296CC12500733858 /* Build configuration list for PBXNativeTarget "RifasTests" */;
+			buildPhases = (
+				E6143FE2296CC12500733858 /* Sources */,
+				E6143FE3296CC12500733858 /* Frameworks */,
+				E6143FE4296CC12500733858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6143FE8296CC12500733858 /* PBXTargetDependency */,
+			);
+			name = RifasTests;
+			productName = RifasTests;
+			productReference = E6143FE6296CC12500733858 /* RifasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6143FEF296CC12500733858 /* RifasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6144000296CC12500733858 /* Build configuration list for PBXNativeTarget "RifasUITests" */;
+			buildPhases = (
+				E6143FEC296CC12500733858 /* Sources */,
+				E6143FED296CC12500733858 /* Frameworks */,
+				E6143FEE296CC12500733858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6143FF2296CC12500733858 /* PBXTargetDependency */,
+			);
+			name = RifasUITests;
+			productName = RifasUITests;
+			productReference = E6143FF0296CC12500733858 /* RifasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6143FC8296CC12400733858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E6143FCF296CC12400733858 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E6143FE5296CC12500733858 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6143FCF296CC12400733858;
+					};
+					E6143FEF296CC12500733858 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E6143FCF296CC12400733858;
+					};
+				};
+			};
+			buildConfigurationList = E6143FCB296CC12400733858 /* Build configuration list for PBXProject "Rifas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6143FC7296CC12400733858;
+			productRefGroup = E6143FD1296CC12400733858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6143FCF296CC12400733858 /* Rifas */,
+				E6143FE5296CC12500733858 /* RifasTests */,
+				E6143FEF296CC12500733858 /* RifasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6143FCE296CC12400733858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6143FE0296CC12500733858 /* LaunchScreen.storyboard in Resources */,
+				E6143FDD296CC12500733858 /* Assets.xcassets in Resources */,
+				E6143FDB296CC12400733858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FE4296CC12500733858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FEE296CC12500733858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6143FCC296CC12400733858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6143FD8296CC12400733858 /* ViewController.swift in Sources */,
+				E6143FD4296CC12400733858 /* AppDelegate.swift in Sources */,
+				E6143FD6296CC12400733858 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FE2296CC12500733858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6143FEB296CC12500733858 /* RifasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6143FEC296CC12500733858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6143FF7296CC12500733858 /* RifasUITestsLaunchTests.swift in Sources */,
+				E6143FF5296CC12500733858 /* RifasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6143FE8296CC12500733858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6143FCF296CC12400733858 /* Rifas */;
+			targetProxy = E6143FE7296CC12500733858 /* PBXContainerItemProxy */;
+		};
+		E6143FF2296CC12500733858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6143FCF296CC12400733858 /* Rifas */;
+			targetProxy = E6143FF1296CC12500733858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6143FD9296CC12400733858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6143FDA296CC12400733858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6143FDE296CC12500733858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6143FDF296CC12500733858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6143FF8296CC12500733858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6143FF9296CC12500733858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6143FFB296CC12500733858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rifas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.Rifas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6143FFC296CC12500733858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rifas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.Rifas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6143FFE296CC12500733858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.RifasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rifas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rifas";
+			};
+			name = Debug;
+		};
+		E6143FFF296CC12500733858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.RifasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rifas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rifas";
+			};
+			name = Release;
+		};
+		E6144001296CC12500733858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.RifasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rifas;
+			};
+			name = Debug;
+		};
+		E6144002296CC12500733858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZUPRF846G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = casa.RifasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rifas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6143FCB296CC12400733858 /* Build configuration list for PBXProject "Rifas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6143FF8296CC12500733858 /* Debug */,
+				E6143FF9296CC12500733858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6143FFA296CC12500733858 /* Build configuration list for PBXNativeTarget "Rifas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6143FFB296CC12500733858 /* Debug */,
+				E6143FFC296CC12500733858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6143FFD296CC12500733858 /* Build configuration list for PBXNativeTarget "RifasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6143FFE296CC12500733858 /* Debug */,
+				E6143FFF296CC12500733858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6144000296CC12500733858 /* Build configuration list for PBXNativeTarget "RifasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6144001296CC12500733858 /* Debug */,
+				E6144002296CC12500733858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6143FC8296CC12400733858 /* Project object */;
+}
